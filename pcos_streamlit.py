@@ -19,7 +19,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 
-data = pd.read_csv(r'C:\Users\laira\OneDrive\Documents\PCOS_data_without_infertility.csv')
+data = pd.read_csv(r'PCOS_data_without_infertility.csv')
 
 st.set_page_config(page_title = 'PCOS Diagnosis Prediction', layout = 'wide')
 
